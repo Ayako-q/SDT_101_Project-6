@@ -1,4 +1,6 @@
 package Part_1_Linked_Lists;
 
-public class Linked {
+class LinkedList<T> implements Iterable<T>
+{
+
 }
