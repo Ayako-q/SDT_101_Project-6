@@ -49,7 +49,9 @@ public class Main {
 
         System.out.println("\n3. The time complexity of traversing the list using the given code snippet is O(n)," +
                 "\nwhere n is the size of the list. This is because we iterate over each element of the list " +
-                "\nonce to print its value using the get(i) method, resulting in a linear time operation.");
+                "\nonce to print its value using the get(i) method, resulting in a linear time operation." +
+                "" +
+                "FIX: In this case complexity is O(n^2) bacause of a loop (O(n)) and get(i) method (O(n)");
 
 
     }
